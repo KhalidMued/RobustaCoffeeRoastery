@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+	background: linear-gradient(rgba(0,0,0,0.5), seashell) , url(img/banner.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.logo{
+	width: 200px;
+	position: absolute;
+	top: 1%;
+	left: 4%;
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 340px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.banner-text p{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.banner-bttn{
+	margin: 70px auto 0;
+	padding: 0;	
+}
+
+.banner-bttn a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: sandybrown;
+	border: .5px solid white;
+	font-weight: bold ;
+	position: relative;
+	z-index: 1;
+}
+
+.banner-bttn a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: -1;
+	transition: 0.5s;
+
+}
+
+.banner-bttn a:hover span{
+	width: 100%;
+}
+
+.banner-bttn .fa-solid{
+	width: 25px;
+}
+
+
+
+

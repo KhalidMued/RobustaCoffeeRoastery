@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.5) , seashell);
+	background-size: cover;
+	background-position: center;
+	height: auto;
+
+}
+
+.logo{
+	width: 200px;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 200px;
+  margin-top: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 150px;
+}
+
+
+li a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: -1;
+	transition: 0.5s;
+
+}
+
+li a:hover span{
+	width: 100%;
+}
+
+li a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: sandybrown;
+	border: .5px solid white;
+	font-weight: bold ;
+	position: relative;
+	z-index: 1;
+}
+
+.fa-solid{
+	width: 34px;
+}
+
+.contact{
+position: relative;
+min-height: 100vh;
+padding: 70px 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: seashell;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.contact .content p{
+	font-weight: 300;
+	color: white;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.container .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 68px;
+	background: #ffFf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+	display: flex;
+	margin-Left: 28px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+	color: sienna;
+}
+
+.contactform{
+	width: 40%;
+	padding: 40px;
+	background: #ffFf;
+}
+
+.contactform h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+
+.contactform .InputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px:
+}
+
+.contactform .InputBox input,
+.contactform .InputBox textarea
+{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+}
+
+.contactform .InputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: sienna;
+
+}
+
+.contactform .InputBox input:focus ~ span,
+.contactform .InputBox input:valid ~ span,
+.contactform .InputBox textarea:focus ~ span,
+.contactform .InputBox textarea:valid ~ span{
+	color: seashell ;
+	font-size: 12px ;
+	transform: translateY(-20px);
+}
+
+.contactform .InputBox input[type="submit"]{
+	width: 100px;
+	background: sandybrown;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+@media (max-width: 991px)
+{
+
+.contact{
+padding: 50px;
+}
+
+.container{
+
+flex-direction: column;
+}
+
+
+.container .contactInfo{
+
+margin-bottom: 40px;
+}
+
+.container .contactInfo, .contactform {
+	width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
