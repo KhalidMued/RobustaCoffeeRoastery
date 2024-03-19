@@ -72,6 +72,34 @@
 	width: 25px;
 }
 
+/* Responsive adjustments */
+@media only screen and (max-width: 1440px) {
+    .logo {
+        width: 150px; /* Smaller logo */
+    }
+
+    .banner-text {
+        padding-top: 200px; /* Adjust text position */
+    }
+
+    .banner-text h1 {
+        font-size: 80px; /* Smaller headline */
+		font-weight: bold;
+    }
+
+    .banner-text p {
+        font-size: 15px; /* Smaller paragraph text */
+		padding-bottom: 16px;
+    }
+
+    .banner-bttn a {
+        width: 120px; /* Smaller buttons */
+        padding: 10px 20; /* Adjust padding */
+		margin-left: 0px;
+		margin-bottom: 14px;
+		
+    }
+}
 
 
 
